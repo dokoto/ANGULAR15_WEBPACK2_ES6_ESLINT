@@ -1,4 +1,4 @@
-# BOILERPLATE ES6 + WEBPACK 2 + ESLINT + ANGULAR 1.5 
+# BOILERPLATE ES6 + WEBPACK 2 + ESLINT + ANGULAR 1.5 + SASS
 
 ### References
 * https://github.com/orizens/angular-es6-styleguide
