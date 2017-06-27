@@ -1,0 +1,19 @@
+{
+    "CURL_COMMAND": "curl -X POST -d \"grant_type=password&username=REDDIT_USERNAME&password=REDDIT_PASSWORD\" --user \"REDIIT_CLIENT_ID:REDDIT_CLIENT_SECRET\"  -A \"dktesta\" \"https://www.reddit.com/api/v1/access_token\"",
+    "REDDIT": {
+        "access_token": "REDDIT_ACCESS_TOKEN",
+        "token_type": "bearer",
+        "expires_in": 3600,
+        "scope": "*",
+        "username": "REDDIT_USERNAME",
+        "password": "REDDIT_PASSWORD",
+        "userAgent": "dktesta",
+        "clientId": "REDIIT_CLIENT_ID",
+        "clientSecret": "REDDIT_CLIENT_SECRET"
+    },
+    "ENV": {
+        "loc": "",
+        "dev": "192.168.77.4",
+        "prod": "https://whatever.net"
+    }
+}
